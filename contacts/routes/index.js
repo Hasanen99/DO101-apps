@@ -16,6 +16,7 @@ router.get('/', function(req, res) {
       res.render('index', { error: null, contacts: null, title: 'Contact List' });
     }
 
+    
     // 'contacts' table exists. Show the records.
     else {
       pgconn.query('SELECT * FROM contacts', function(err,results) {
