@@ -9,5 +9,3 @@ insert into contacts(firstname, lastname, email) values
   ('Peregrin','Took','pippin@theshire.com'),
   ('Meriadoc','Brandybuck','merry@theshire.com');
 
-
-
